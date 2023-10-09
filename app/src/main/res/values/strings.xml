@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">1MorePage</string>
+    <string name="new_user_signup">New User? <b>SignUp</b></string>
+    <string name="have_account_signin">Already have an account? <b>SignIn</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

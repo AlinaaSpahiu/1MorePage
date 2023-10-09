@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mint"
+    android:padding="20dp"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/logoiv"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/apptv"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/welcometv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Welcome"
+        android:textColor="@color/green_500"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-thin"
+        />
+
+    <TextView
+        android:id="@+id/totv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="to"
+        android:layout_below="@+id/welcometv"
+        android:textColor="@color/green_700"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/oneMorePagetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="1MorePage"
+        android:layout_below="@id/totv"
+        android:textColor="@color/green_700"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/apptv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="App"
+        android:layout_below="@id/oneMorePagetv"
+        android:textColor="@color/green_700"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_button01"
+        android:text="Log in"
+        android:textColor="@color/mint"
+        android:layout_above="@id/skipBtn"/>
+
+    <Button
+        android:id="@+id/skipBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Continue withour Login"
+        android:textColor="@color/green_700"
+        android:background="@drawable/shape_button02"
+        android:layout_marginBottom="50dp"/>
+
+
+
+</RelativeLayout>
